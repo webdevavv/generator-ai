@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preload" href="font/MonotypeCorsiva.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main class="content">
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__poem">
+                    <div class="hero__poem-text">Моя <span class="mark">Муза</span> сидит в уголочке <br>И с упреком глядит на меня... <br>От меня не получишь не строчки! <br>Где ты видела дым без огня?!</div>
+                    <img src="img/hero-img1.jpg" srcset="img/hero-img1@2x.jpg 2x" alt="" class="hero__poem-img"><img src="img/notebook@4x.png" srcset="img/notebook@4x@2x.png 2x" alt="" class="hero__poem-decor">
+                </div>
+                <div class="hero__main">
+                    <svg class="icon icon-pencil hero__main-decor">
+                        <use xlink:href="img/symbol-defs.svg#icon-pencil"></use>
+                    </svg>
+                    <h1 class="hero__main-title">Почувствуй себя великим <span class="mark">поэтом</span></h1>
+                    <div class="hero__main-subtitle">Нейросеть, которая поможет написать стих или подобрать рифму </div>
+                    <div class="hero__main-btn">
+                        <a href="" class="btn">Начать генерацию</a>
+                    </div>
+                </div>
+                <img src="img/hero-img2.jpg" srcset="img/hero-img2@2x.jpg 2x" alt="" class="hero__img">
+                <div class="hero__tags">
+                    <div class="hero__tags-item">
+                        <svg class="icon icon-Verified hero__tags-icon">
+                            <use xlink:href="img/symbol-defs.svg#icon-Verified"></use>
+                        </svg>
+                        <div class="hero__tags-text">Быстрая генерация</div>
+                    </div>
+                    <div class="hero__tags-item">
+                        <svg class="icon icon-Website hero__tags-icon">
+                            <use xlink:href="img/symbol-defs.svg#icon-Website"></use>
+                        </svg>
+                        <div class="hero__tags-text">Работа без VPN</div>
+                    </div>
+                    <div class="hero__tags-item">
+                        <svg class="icon icon-Edit hero__tags-icon">
+                            <use xlink:href="img/symbol-defs.svg#icon-Edit"></use>
+                        </svg>
+                        <div class="hero__tags-text">На русском языке</div>
+                    </div>
+                </div>
+                <img src="img/hero-mobile.png" srcset="img/hero-mobile@2x.png 2x" alt="" class="hero__img-mobile">
+            </div>
+        </section>
+
+        <section class="generator">
+            <div class="container generator__container">
+                <h2 class="h2">От простых словосочетаний до <span class="mark">больших стихов</span></h2>
+                <div class="generator__item">
+                    <div class="generator__item-article">
+                        <h3 class="generator__item-title">Генератор рифм </h3>
+                        <div class="generator__item-subtitle">твой личный поэтический помощник</div>
+                        <div class="generator__item-text">
+                            <p>Подбирай рифмы как профессиональный поэт! Введи любое слово, а нейросеть мгновенно предложит идеальные созвучия.</p>
+                            <p>Забудь о долгих поисках нужной рифмы — вдохновение всегда под рукой!</p>
+                        </div>
+                    </div>
+                    <div class="generator__rhyme">
+                        <div class="generator__rhyme-item">плеть – смотреть</div>
+                        <div class="generator__rhyme-item">гроза – лоза</div>
+                        <div class="generator__rhyme-item">око - жестоко</div>
+                    </div>
+                    <img src="img/generator-img1.jpg" srcset="img/generator-img1@2x.jpg 2x" alt="" class="generator__item-img">
+                    <img src="img/bulb@4x.png" src="img/bulb@4x@2x.png 2x" alt="" class="generator__item-decor">
+                </div>
+                <div class="generator__item">
+                    <div class="generator__item-article">
+                        <h3 class="generator__item-title">Генератор стихов </h3>
+                        <div class="generator__item-subtitle">создавай поэзию за мгновение</div>
+                        <div class="generator__item-text">
+                            <p>Не нужно быть поэтом, чтобы создавать шедевры. Введи тему, и нейросеть подарит готовый стих за считанные секунды — от лирики до философских размышлений.</p>
+                            <p>Теперь создавать поэзию проще простого!</p>
+                        </div>
+                    </div>
+                    <div class="generator__poem">
+                        <span class="mark">Творческий кризис...</span><br>Ни рифмы, ни строчки –<br>Негде расставить любимые точки<br>И запятые, что тоже, к несчастью,<br>Ставить приходится чаще и чаще...
+                    </div>
+                    <img src="img/generator-img2.jpg" srcset="img/generator-img2@2x.jpg 2x" alt="" class="generator__item-img">
+                    <svg class="icon icon-letter">
+                        <use xlink:href="img/symbol-defs.svg#icon-letter"></use>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="join">
+            <div class="container join__container">
+                <img src="img/scroll-img.jpg" src="img/scroll-img@2x.jpg 2x" alt="" class="join__img">
+                <div class="join__list">
+                    <h2 class="h2">Приобщись к <span class="mark">великому искусству</span></h2>
+                    <div class="join__wrap">
+                        <div class="join__col">
+                            <div class="join__item">
+                                <svg class="icon icon-Like">
+                                    <use xlink:href="img/symbol-defs.svg#icon-Like"></use>
+                                </svg>
+                                <h3 class="join__item-title">Мгновенное создание стихов</h3>
+                                Получай готовые стихотворения за секунды — быстро и легко
+                            </div>
+                            <div class="join__item">
+                                <svg class="icon icon-Heart">
+                                    <use xlink:href="img/symbol-defs.svg#icon-Heart"></use>
+                                </svg>
+                                <h3 class="join__item-title">Лёгкость использования</h3>
+                                Просто введи тему или слово — остальное сделает генератор
+                            </div>
+                            <div class="join__item">
+                                <svg class="icon icon-Time">
+                                    <use xlink:href="img/symbol-defs.svg#icon-Time"></use>
+                                </svg>
+                                <h3 class="join__item-title">Вдохновение в любое время</h3>
+                                Твоя муза всегда рядом — нейросеть готова помочь в любой момент
+                            </div>
+                        </div>
+                        <div class="join__col">
+                            <div class="join__item">
+                                <svg class="icon icon-Sun">
+                                    <use xlink:href="img/symbol-defs.svg#icon-Sun"></use>
+                                </svg>
+                                <h3 class="join__item-title">Подбор уникальных рифм</h3>
+                                Нейросеть подбирает оригинальные рифмы, экономя время и усилия
+                            </div>
+                            <div class="join__item">
+                                <svg class="icon icon-Group">
+                                    <use xlink:href="img/symbol-defs.svg#icon-Group"></use>
+                                </svg>
+                                <h3 class="join__item-title">Поэзия станет доступна для всех</h3>
+                                Не нужен опыт в писательстве, чтобы создавать красивые стихи
+                            </div>
+                            <div class="join__item">
+                                <svg class="icon icon-Category">
+                                    <use xlink:href="img/symbol-defs.svg#icon-Category"></use>
+                                </svg>
+                                <h3 class="join__item-title">Множество тем на выбор</h3>
+                                От романтики до философии — генератор подстраивается под любой запрос
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <svg class="icon icon-letter2">
+                    <use xlink:href="img/symbol-defs.svg#icon-letter2"></use>
+                </svg>
+            </div>
+        </section>
+
+        <section class="other">
+            <div class="container other__container">
+                <h2 class="h2">Генератор поможет и в других текстовых вопросах</h2>
+                <div class="other__swiper swiper">
+                    <div class="other__arrows">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="other__list swiper-wrapper">
+                        <div class="other__item swiper-slide">
+                            <h3 class="other__item-title">Рерайт текста</h3>
+                            <div class="other__item-subtitle">Улучши тексты за секунду!</div>
+                            <div class="other__item-text">Нейросеть легко перепишет текст, сохраняя смысл и добавляя свежие формулировки. Идеально для обновления контента без лишних усилий!</div>
+                            <div class="other__item-img">
+                                <img src="img/text-img1.jpg" srcset="img/text-img1@2x.jpg 2x" alt="">
+                            </div>
+                        </div>
+                        <div class="other__item swiper-slide">
+                            <h3 class="other__item-title">Синонимайзер</h3>
+                            <div class="other__item-subtitle">Оживи скучную прозу!</div>
+                            <div class="other__item-text">Надоел однообразный текст? Синонимайзер мгновенно заменит слова, сделав предложения выразительнее. Добавь оригинальности в свои текста!</div>
+                            <div class="other__item-img">
+                                <img src="img/text-img2.jpg" srcset="img/text-img2@2x.jpg 2x" alt="">
+                            </div>
+                        </div>
+                        <div class="other__item swiper-slide">
+                            <h3 class="other__item-title">Презентации</h3>
+                            <div class="other__item-subtitle">Эффектно, быстро и без лишних хлопот</div>
+                            <div class="other__item-text">Любая презентация, будь то отчёт или креативный проект, будет выглядеть идеально. Готовый результат за считанные минуты!</div>
+                            <div class="other__item-img">
+                                <img src="img/text-img3.jpg" srcset="img/text-img3@2x.jpg 2x" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other__btn"><a href="" class="btn">Попробовать</a></div>
+            </div>
+        </section>
+
+        <section class="whom">
+            <div class="container whom__container">
+                <h2 class="h2">От студентов до бизнесменов — нейросеть <span class="mark">для всех</span></h2>
+                <div class="whom__list">
+                    <div class="whom__item">
+                        <h3 class="whom__item-title"><svg class="icon icon-magic-wand">
+                                <use xlink:href="img/symbol-defs.svg#icon-magic-wand"></use>
+                            </svg> Творческие люди</h3>
+                        <div class="whom__item-text">
+                            <p>Поэты, писатели и блогеры найдут в нейросети верного помощника для воплощения идей</p>
+                            <p>Генератор стихов, рерайт текста и синонимайзер помогут разнообразить творчество, предложат свежие идеи и вдохновят на новые свершения</p>
+                        </div>
+                    </div>
+                    <div class="whom__item">
+                        <h3 class="whom__item-title"><svg class="icon icon-Edit-Square">
+                                <use xlink:href="img/symbol-defs.svg#icon-Edit-Square"></use>
+                            </svg> Копирайтеры</h3>
+                        <div class="whom__item-text">
+                            <p>Забудь о рутинной правке текстов</p>
+                            <p>Нейросеть ускорит процесс работы, предложит синонимы и переформулирует текст, сохранив его уникальность и избавив от повторов</p>
+                        </div>
+                    </div>
+                    <div class="whom__item">
+                        <h3 class="whom__item-title"><svg class="icon icon-Activity">
+                                <use xlink:href="img/symbol-defs.svg#icon-Activity"></use>
+                            </svg> Маркетологи</h3>
+                        <div class="whom__item-text">
+                            <p>Генератор презентаций и рерайт текста помогут создать цепляющий контент для целевой аудитории</p>
+                            <p>Адаптируйте материалы под разные платформы и задачи - быстро и без лишних усилий</p>
+                        </div>
+                    </div>
+                    <div class="whom__item">
+                        <h3 class="whom__item-title"><svg class="icon icon-presentation">
+                                <use xlink:href="img/symbol-defs.svg#icon-presentation"></use>
+                            </svg> Преподаватели</h3>
+                        <div class="whom__item-text">
+                            <p>Учителям и лекторам станет проще готовить учебные материалы</p>
+                            <p>Используйте нейросеть для создания красочных презентаций и текстов. Вдохновляйте учеников и делайте обучение интересным!</p>
+                        </div>
+                    </div>
+                    <div class="whom__item">
+                        <h3 class="whom__item-title"><svg class="icon icon-briefcase">
+                                <use xlink:href="img/symbol-defs.svg#icon-briefcase"></use>
+                            </svg> Бизнесмены</h3>
+                        <div class="whom__item-text">
+                            <p>Нейросеть поможет быстро создать документы и презентации для бизнеса</p>
+                            <p>Улучшайте тексты с помощью функций рерайта и синонимайзера, делая коммуникацию более эффективной</p>
+                        </div>
+                    </div>
+                    <div class="whom__item">
+                        <h3 class="whom__item-title"><svg class="icon icon-Education">
+                                <use xlink:href="img/symbol-defs.svg#icon-Education"></use>
+                            </svg> Студенты</h3>
+                        <div class="whom__item-text">
+                            <p>Легко создавайте презентации, пишите стихи и делайте рерайт текстов для курсовых и дипломных работ</p>
+                            <p>Нейросеть поможет сэкономить время и силы — учитесь с удовольствием!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h2 class="h2">Более <span class="mark">10.000</span> создают текст с нами!</h2>
+            <div class="reviews__list">
+                <div class="container reviews__container">
+                    <div class="reviews__item">
+                        <div class="reviews__item-star"><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg></div>
+                        <div class="reviews__item-title">Анна Петровская</div>
+                        <div class="reviews__item-text">Эта нейросеть просто находка! Генератор стихов вдохновил меня на создание нескольких красивых строк, которые я теперь использую в своих проектах. Рекомендую всем творческим людям!</div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-star"><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg></div>
+                        <div class="reviews__item-title">Анна Петровская</div>
+                        <div class="reviews__item-text">Эта нейросеть просто находка! Генератор стихов вдохновил меня на создание нескольких красивых строк, которые я теперь использую в своих проектах. Рекомендую всем творческим людям!</div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-star"><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg></div>
+                        <div class="reviews__item-title">Анна Петровская</div>
+                        <div class="reviews__item-text">Эта нейросеть просто находка! Генератор стихов вдохновил меня на создание нескольких красивых строк, которые я теперь использую в своих проектах. Рекомендую всем творческим людям!</div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-star"><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg></div>
+                        <div class="reviews__item-title">Анна Петровская</div>
+                        <div class="reviews__item-text">Эта нейросеть просто находка! Генератор стихов вдохновил меня на создание нескольких красивых строк, которые я теперь использую в своих проектах. Рекомендую всем творческим людям!</div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-star"><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg></div>
+                        <div class="reviews__item-title">Анна Петровская</div>
+                        <div class="reviews__item-text">Эта нейросеть просто находка! Генератор стихов вдохновил меня на создание нескольких красивых строк, которые я теперь использую в своих проектах. Рекомендую всем творческим людям!</div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-star"><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg></div>
+                        <div class="reviews__item-title">Анна Петровская</div>
+                        <div class="reviews__item-text">Эта нейросеть просто находка! Генератор стихов вдохновил меня на создание нескольких красивых строк, которые я теперь использую в своих проектах. Рекомендую всем творческим людям!</div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-star"><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg></div>
+                        <div class="reviews__item-title">Анна Петровская</div>
+                        <div class="reviews__item-text">Эта нейросеть просто находка! Генератор стихов вдохновил меня на создание нескольких красивых строк, которые я теперь использую в своих проектах. Рекомендую всем творческим людям!</div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-star"><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg><svg class="icon icon-star">
+                                <use xlink:href="img/symbol-defs.svg#icon-star"></use>
+                            </svg></div>
+                        <div class="reviews__item-title">Анна Петровская</div>
+                        <div class="reviews__item-text">Эта нейросеть просто находка! Генератор стихов вдохновил меня на создание нескольких красивых строк, которые я теперь использую в своих проектах. Рекомендую всем творческим людям!</div>
+                    </div>
+                    <img src="img/books@4x.png" srcset="img/books@4x@2x.png 2x" alt="" class="reviews__decor1">
+                    <img src="img/pencil@4x.png" srcset="img/pencil@4x@2x.png 2x" alt="" class="reviews__decor2">
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <h2 class="h2">FAQ</h2>
+                <div class="faq__list">
+                    <div class="faq__col">
+                        <div class="faq__item">
+                            <div class="faq__item-title">Как работает генератор стихов? <div class="faq__item-icon"><svg class="icon icon-Add">
+                                        <use xlink:href="img/symbol-defs.svg#icon-Add"></use>
+                                    </svg></div>
+                            </div>
+                            <div class="faq__item-wrap">
+                                <div class="faq__item-text">Генератор стихов принимает ваши идеи или ключевые слова и использует алгоритмы, чтобы создать уникальные стихотворные строки. Просто введите тему, и он предложит готовое стихотворение!</div>
+                            </div>
+                        </div>
+                        <div class="faq__item">
+                            <div class="faq__item-title">Как работает генератор стихов? <div class="faq__item-icon"><svg class="icon icon-Add">
+                                        <use xlink:href="img/symbol-defs.svg#icon-Add"></use>
+                                    </svg></div>
+                            </div>
+                            <div class="faq__item-wrap">
+                                <div class="faq__item-text">Генератор стихов принимает ваши идеи или ключевые слова и использует алгоритмы, чтобы создать уникальные стихотворные строки. Просто введите тему, и он предложит готовое стихотворение!</div>
+                            </div>
+                        </div>
+                        <div class="faq__item">
+                            <div class="faq__item-title">Как работает генератор стихов? <div class="faq__item-icon"><svg class="icon icon-Add">
+                                        <use xlink:href="img/symbol-defs.svg#icon-Add"></use>
+                                    </svg></div>
+                            </div>
+                            <div class="faq__item-wrap">
+                                <div class="faq__item-text">Генератор стихов принимает ваши идеи или ключевые слова и использует алгоритмы, чтобы создать уникальные стихотворные строки. Просто введите тему, и он предложит готовое стихотворение!</div>
+                            </div>
+                        </div>
+                        <div class="faq__item">
+                            <div class="faq__item-title">Как работает генератор стихов? Как работает генератор стихов? Как работает генератор стихов? Как работает генератор стихов? <div class="faq__item-icon"><svg class="icon icon-Add">
+                                        <use xlink:href="img/symbol-defs.svg#icon-Add"></use>
+                                    </svg></div>
+                            </div>
+                            <div class="faq__item-wrap">
+                                <div class="faq__item-text">Генератор стихов принимает ваши идеи или ключевые слова и использует алгоритмы, чтобы создать уникальные стихотворные строки. Просто введите тему, и он предложит готовое стихотворение!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq__col">
+                        <div class="faq__item">
+                            <div class="faq__item-title">Как работает генератор стихов? <div class="faq__item-icon"><svg class="icon icon-Add">
+                                        <use xlink:href="img/symbol-defs.svg#icon-Add"></use>
+                                    </svg></div>
+                            </div>
+                            <div class="faq__item-wrap">
+                                <div class="faq__item-text">Генератор стихов принимает ваши идеи или ключевые слова и использует алгоритмы, чтобы создать уникальные стихотворные строки. Просто введите тему, и он предложит готовое стихотворение!</div>
+                            </div>
+                        </div>
+                        <div class="faq__item">
+                            <div class="faq__item-title">Как работает генератор стихов? <div class="faq__item-icon"><svg class="icon icon-Add">
+                                        <use xlink:href="img/symbol-defs.svg#icon-Add"></use>
+                                    </svg></div>
+                            </div>
+                            <div class="faq__item-wrap">
+                                <div class="faq__item-text">Генератор стихов принимает ваши идеи или ключевые слова и использует алгоритмы, чтобы создать уникальные стихотворные строки. Просто введите тему, и он предложит готовое стихотворение!</div>
+                            </div>
+                        </div>
+                        <div class="faq__item">
+                            <div class="faq__item-title">Как работает генератор стихов? <div class="faq__item-icon"><svg class="icon icon-Add">
+                                        <use xlink:href="img/symbol-defs.svg#icon-Add"></use>
+                                    </svg></div>
+                            </div>
+                            <div class="faq__item-wrap">
+                                <div class="faq__item-text">Генератор стихов принимает ваши идеи или ключевые слова и использует алгоритмы, чтобы создать уникальные стихотворные строки. Просто введите тему, и он предложит готовое стихотворение!</div>
+                            </div>
+                        </div>
+                        <div class="faq__item">
+                            <div class="faq__item-title">Как работает генератор стихов? <div class="faq__item-icon"><svg class="icon icon-Add">
+                                        <use xlink:href="img/symbol-defs.svg#icon-Add"></use>
+                                    </svg></div>
+                            </div>
+                            <div class="faq__item-wrap">
+                                <div class="faq__item-text">Генератор стихов принимает ваши идеи или ключевые слова и использует алгоритмы, чтобы создать уникальные стихотворные строки. Просто введите тему, и он предложит готовое стихотворение!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner">
+            <div class="container banner__container">
+                <div class="banner__poem">
+                    О, <span class="mark">поэт</span>! Народ твой без сомненья,<br>Лёд растопит и сметёт снега,<br>Лишь сумей понять его стремленья!<br>Окрыляй, светись для них всегда.
+                    <svg class="icon icon-bird">
+                        <use xlink:href="img/symbol-defs.svg#icon-bird"></use>
+                    </svg>
+                </div>
+                <div class="banner__item">
+                    <h2 class="banner__title h2">Доверь создание контента <span class="mark">Assistant AI</span></h2>
+                    <div class="banner__subtitle">Создавай, редактируй, доводи до совершенства</div>
+                    <div class="banner__btn"><a href="" class="btn">Начать сейчас</a></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
