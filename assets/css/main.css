@@ -658,25 +658,58 @@ p {
     color: var(--white);
 }
 
-.other__arrows {
+.generator-arrows {
     align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
     display: none;
+    background: #F3F3F3CF;
+    max-width: 150px;
+    margin: 0 auto;
+    border-radius: 45px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 7px 20px;
+}
+.presentation-arrows{
+    align-items: center;
+    display: none;
+    background: #FFFFFF;
+    max-width: 150px;
+    margin: 0 auto;
+    border-radius: 45px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 7px 20px;
+}
+.synonymizer-arrows{
+    align-items: center;
+    display: none;
+    background: #353535CF;
+    max-width: 150px;
+    margin: 0 auto;
+    border-radius: 45px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 7px 20px;
+}
+.other__swiper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .other .swiper-button-prev,
 .other .swiper-button-next {
-    width: 75px;
-    height: 38px;
-    background-color: var(--white);
     position: static;
     padding: 5px;
     margin: 0;
     color: var(--blue);
-    --swiper-navigation-size: 24px;
+    --swiper-navigation-size: 34px;
+    opacity: 1;
+    transform: rotateX(45deg);
 }
-
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled::after{
+    color: #727272;
+}
 .other .swiper-button-prev {
     border-radius: 19px 0 0 19px;
 }
@@ -810,6 +843,13 @@ p {
     flex-direction: column;
     gap: 10px;
     color: var(--grey1);
+}
+.whom__item-text span{
+    color: #3F3F3F;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+
 }
 
 .reviews2 .reviews__list {
@@ -2431,6 +2471,17 @@ p {
     .generator-other {
         background-image: url("../img/text-bg-mobile.png");
     }
+    .whom__item {
+        padding: 20px 25px ;
+
+    }
+    .whom__item:before {
+        content: counter(whom);
+        font-size: 80px;
+        line-height: 80px;
+        color: var(--blue);
+    }
+
 }
 
 @media (max-width: 567px) {
