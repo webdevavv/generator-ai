@@ -1,0 +1,142 @@
+
+.footer {
+    padding: 60px 0 0;
+    background: #1B1B1B;
+    min-height: 284px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-body {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-list li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: .3s;
+    text-decoration: none;
+
+}
+
+.footer-menu-list li {
+    list-style: none;
+}
+
+.footer-menu-list li a:hover {
+
+    color: #0057FF;
+
+}
+
+.footer-clue {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-clue span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #939393;
+
+}
+
+.footer-menu-list {
+    gap: 52px;
+    padding: 0;
+    display: flex;
+}
+
+.footer-big-text {
+    font-size: 196px;
+    font-weight: 600;
+    line-height: 220px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: .1;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: -40px;
+}
+
+.footer-btn {
+    padding: 12px 28px;
+    font-weight: 600;
+}
+
+
+
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+    .footer-big-text {
+        font-size: 100px;
+        line-height: 190px;
+        top: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .footer-body {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 28px;
+    }
+
+    .footer-btn {
+        max-width: 150px;
+    }
+
+
+    .footer-big-text {
+        font-size: 53px;
+        line-height: 65.83px;
+        top: 10px;
+        position: relative;
+        text-align: start;
+        margin: 0;
+
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+    .footer-menu-list {
+        flex-wrap: wrap;
+        column-gap: 32px;
+        row-gap: 15px;
+    }
+
+    .footer-menu-list li a {
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+}
+
+@media (max-width: 576px) {
+
+    .footer-menu-list {
+        max-width: 250px;
+    }
+
+    .footer-big-text {
+        margin-top: 20px;
+    }
+
+    .footer-clue {
+        flex-direction: unset;
+    }
+}
