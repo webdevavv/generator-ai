@@ -407,6 +407,21 @@
     .header-logo {
         max-width: 124px;
     }
+    .header-rose {
+        padding: 7px 24px;
 
+    }
+
+    .header-body {
+        padding: 7px 24px;
+
+    }
+
+    .header-body-blur {
+        padding: 7px 24px;
+
+
+
+    }
 
 }
