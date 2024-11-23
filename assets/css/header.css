@@ -411,6 +411,24 @@
         padding: 7px 12px;
 
     }
+    .header.moved .header-body {
+        padding: 7px 12px;
+
+
+    }
+
+    .header.moved .header-body-blur {
+        padding: 7px 12px;
+
+
+    }
+
+
+    .header.moved .header-rose {
+        padding: 7px 12px;
+
+
+    }
 
     .header-body {
         padding: 7px 12px;
