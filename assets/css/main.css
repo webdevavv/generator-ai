@@ -629,7 +629,7 @@ p {
 .other--rewrite {
     background-color: var(--white);
     background-image: none;
-    padding: 120px 0;
+    padding: 120px 0 0;
     min-height: inherit;
     z-index: 2;
     position: relative;
@@ -2189,9 +2189,6 @@ p {
         padding: 0;
     }
 
-    .other--rewrite {
-        padding: 0 0 40px;
-    }
 
     .other__list.swiper-wrapper {
         display: flex;
